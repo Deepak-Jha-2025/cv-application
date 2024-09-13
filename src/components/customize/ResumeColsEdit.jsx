@@ -5,20 +5,17 @@ export default function ResumeColsEdit({ onColChange }) {
     <>
       <h2>Layout</h2>
       <div className="col-buttons">
-        <button onClick={() => onColChange('top')}>
-          <div className="top-visual visual">
-            Top
-          </div>
+        <button onClick={() => onColChange("top")}>
+          <div className="top-visual visual" />
+          Top
         </button>
-        <button onClick={() => onColChange('left')}>
-          <div className="left-visual visual">
-            Left
-          </div>
+        <button onClick={() => onColChange("left")}>
+          <div className="left-visual visual" />
+          Left
         </button>
-        <button onClick={() => onColChange('right')}>
-          <div className="right-visual visual">
-            Right
-          </div>
+        <button onClick={() => onColChange("right")}>
+          <div className="right-visual visual" />
+          Right
         </button>
       </div>
     </>
