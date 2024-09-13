@@ -3,6 +3,7 @@ import './styles/App.css';
 import Resume from './components/Resume';
 import exampleData from './example-data';
 import Customize from './components/Customize';
+import Sidebar from './components/Sidebar';
 
 function App() {
   const [personalInfo, setPersonalInfo] = useState(exampleData.personalInfo);
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="app">
       <div className="edit-side">
-
+        <Sidebar onGoToPage={setCurrentPage} page={currentPage} />
         <div className="form-container">
           <Customize
             isShown={currentPage === 'customize'}
