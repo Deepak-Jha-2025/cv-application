@@ -7,7 +7,7 @@ function EducationInfo({ info }) {
       <div className="education-info-group">
         <p className="dates">
           {startDate}
-          {startDate && endDate && <span> - </span>}
+          {startDate && endDate && <span> – </span>}
           {endDate}
         </p>
         <p>{location}</p>

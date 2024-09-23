@@ -7,7 +7,7 @@ export default function ExperienceInfoSection({ experiences }) {
       <DisplaySection
         array={experiences}
         InfoComponent={ExperienceInfo}
-        title="Professioal Experience"
+        title="Professional Experience"
       />
     </div>
   )

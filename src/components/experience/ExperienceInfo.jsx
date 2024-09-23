@@ -8,7 +8,7 @@ export default function ExperienceInfo({ info }) {
       <div className="experience-info-group">
         <p className="dates">
           {startDate}
-          {startDate && endDate && <span> - </span>}
+          {startDate && endDate && <span> – </span>}
           {endDate}
         </p>
         <p>{location}</p>
