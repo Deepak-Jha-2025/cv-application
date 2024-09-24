@@ -14,7 +14,7 @@ function App() {
   const [personalInfo, setPersonalInfo] = useState(exampleData.personalInfo);
   const [sections, setSections] = useState(exampleData.sections);
   const [sectionOpen, setSectionOpen] = useState(null);
-  const [currentPage, setCurrentPage] = useState("customize");
+  const [currentPage, setCurrentPage] = useState("content");
   const [resumeLayout, setResumeLayout] = useState("top");
   // Store prevState to revert changes when user clicks "cancel"
   const [prevState, setPrevState] = useState(null);
