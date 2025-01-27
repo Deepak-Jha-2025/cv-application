@@ -16,17 +16,21 @@ This CV Generator is a user-friendly application built with React that allows us
 
 **Installation Instructions**  
 1. Clone the repository from GitHub.
- ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+```bash
+ git clone https://github.com/Deepak-Jha-2025/cv-application.git
 ```    
 2. Install the necessary dependencies using npm.
- ```bash
-cd your-repo-name
+```bash
+ cd cv-application
 ``` 
-3. Run the development server to view the application locally.
- ```bash
-   npm install
- ```
+3. Install the necessary dependencies using npm.
+```bash
+ npm install
+```
+4. Run the development server to view the application locally.
+```bash
+ npm start
+``` 
 
 **Usage**  
 - Fill in your personal details in the provided fields.  
