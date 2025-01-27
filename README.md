@@ -40,4 +40,4 @@ Contributions are welcome! Feel free to submit issues or pull requests for any i
 This project is licensed under the MIT License.
 
 **Author**  
-[Your Name]
+[Deepak Jha]
